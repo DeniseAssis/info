@@ -67,6 +67,35 @@ public void buscaResultado(String linguagemEscolhida, String corEscolhida){
 			System.out.println("\", color of " + representation + ".");
 			System.out.println("Your complementary color is: " + cColor + "!");
 			break;
+		case "es":
+			if ("rojo".equals(corEscolhida)) {
+				representation = "Tomate";
+				cColor = "verde";
+			}
+			else if ("purpura".equals(corEscolhida)) {
+				representation = "berenjena";
+				cColor = "amarillo";
+			}
+			else if ("azul".equals(corEscolhida)) {
+				representation = "arandano";
+				cColor = "naranja";
+			}
+			else if ("verde".equals(corEscolhida)) {
+				representation = "lechuga";
+				cColor = "rojo";
+			}
+			else if ("amarillo".equals(corEscolhida)) {
+				representation = "Melon";
+				cColor = "purpura";
+			}
+			else if ("naranja".equals(corEscolhida)) {
+				representation = "mandarina";
+				cColor = "azul";
+			};
+			System.out.print("Bueno, usted eligio \"" + corEscolhida);
+			System.out.println("\", color de " + representation + ".");
+			System.out.println("Su color complementario es: " + cColor + "!");
+			break;
 		default:
 			System.out.print("Linguagem não suportada!");
 			break;
