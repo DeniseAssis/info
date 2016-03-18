@@ -68,6 +68,7 @@ public void buscaResultado(String linguagemEscolhida, String corEscolhida){
 			System.out.println("Your complementary color is: " + cColor + "!");
 			break;
 		default:
+			System.out.print("Linguagem não suportada!");
 			break;
 		}
 	}
